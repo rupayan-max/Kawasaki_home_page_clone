@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_container{
+    width: 100%;
+    background-color:white;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+   
+}
+.header_content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 90%;
+   
+   margin: 0 auto;
+    
+}
+.logo_container{
+    padding: 0.5rem;
+}
+.logoimage{
+    width: 8.4rem;
+    height: 2.2rem;
+}
+
+.right_container{
+    display: flex;
+    gap:1rem;
+}
+.right_first{
+    border-right: 1px solid green;
+    padding-right: 2.5rem;
+}
+.right_text{
+    font-size: 1rem;
+    text-decoration: none;
+    color:rgb(61, 59, 59);
+    font-weight: bold;
+}
